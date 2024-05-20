@@ -1,0 +1,44 @@
+/* Element selectors */
+html{
+    font-family: sans-serif;
+}
+
+img{
+    display:block;
+    width: 450px;
+    height: 500px;
+    border-radius: 2%;
+    margin: 0 auto;
+}
+
+body{
+    padding:5px 20px 20px 20px;
+    background-color: beige;
+    border-radius: 3%;
+}
+
+/* Class selectors */
+.bio-para{
+    background-color: white;
+    padding:10px;
+    border-radius: 3%;
+}
+
+/* ID selectors */
+#heading{
+    color:rgb(63,63,234)
+}
+
+/* Pseudo elements */
+p.bio-para::first-line{
+    font-weight: bold;
+}
+p::first-letter{
+    font-weight: 600;
+}
+
+/* Psuedo classes */
+a:hover{
+    background-color: aqua;
+}
+
