@@ -1,44 +1,81 @@
 /* Element selectors */
-html{
+html {
     font-family: sans-serif;
 }
 
-img{
-    display:block;
+img {
+    display: block;
     width: 450px;
     height: 500px;
     border-radius: 2%;
     margin: 0 auto;
 }
 
-body{
-    padding:5px 20px 20px 20px;
+body {
+    padding: 5px 20px 20px 20px;
     background-color: beige;
     border-radius: 3%;
 }
 
 /* Class selectors */
-.bio-para{
+.bio-para {
     background-color: white;
-    padding:10px;
+    padding: 10px;
     border-radius: 3%;
+}
+.references_article{
+    margin-top: 20px;
 }
 
 /* ID selectors */
-#heading{
-    color:rgb(63,63,234)
+#heading {
+    color: rgb(63, 63, 234)
+}
+
+#header-article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#set-bg-yellow,
+#set-bg-orange,
+#reset-bg {
+    height: 30px;
+    width: auto;
+    margin: 10px;
+    border-radius: 5x;
+}
+
+#buttons_para {
+    margin-top: 2%;
+}
+
+#btn1,
+#btn2 {
+    height: 30px;
+    width: auto;
+    margin: 10px;
+    border-radius: 5x;
+}
+
+#more_photos{
+    display: flex;
+    flex-direction: row;
+  
 }
 
 /* Pseudo elements */
-p.bio-para::first-line{
+p.bio-para::first-line {
     font-weight: bold;
 }
-p::first-letter{
+
+p::first-letter {
     font-weight: 600;
 }
 
 /* Psuedo classes */
-a:hover{
+a:hover {
     background-color: aqua;
 }
-

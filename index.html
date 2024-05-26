@@ -5,25 +5,32 @@
     <meta charset="UTF-8">
     <meta content="width=device-width, initialscale=1.0">
     <title>Biography_of_NM</title>
-    <link href="./styles.css" rel="stylesheet"/>
+    <link href="./styles.css" rel="stylesheet" />
+    <script src="./index.js" defer></script>
 </head>
 
 <body>
-    <p>
-    <h1  id="heading">BIOGRAPHY OF NELSON MANDELA</h1>
-    </p>
+    <article id="header-article">
+        <h1 id="heading">BIOGRAPHY OF NELSON MANDELA</h1>
+        <p>
+            <button onclick="changeBgToYellow()" id="set-bg-yellow">Change background to yellow</button>
+            <button onclick="changeBgToOrange()" id="set-bg-orange">Change background to orange</button>
+            <button onclick="resetBg()" id="reset-bg">Reset background</button>
+        </p>
+    </article>
 
     <p>
-        <img src="./photos/nelson_madela1.jpg" width="280" height="280" />
+        <img src="./photos/nelson_mandela1.jpg" width="280" height="280" />
     </p>
 
-    
-        <u>
-            <h3>Brief Biography</h3>
-        </u>
-   
 
-    <p class="bio-para"> He studied law at the University of Hare and University of Witwatersrand before practicing law in Johannesburg.
+    <u>
+        <h3>Brief Biography</h3>
+    </u>
+
+
+    <p class="bio-para"> He studied law at the University of Hare and University of Witwatersrand before practicing law
+        in Johannesburg.
         He spent most of his youthful and middle-age years passionately fighting against colonialism and the apartheid
         system in South Africa. In 1962, he was unjustly sentenced to life imprisonment for conspiring to overthrow the
         government. After serving his sentence for 27 years, he was freed in 1990 after the fall of the apartheid
@@ -33,7 +40,7 @@
     </p>
 
     <u>
-    <h3>Achievements and Honors</h3>
+        <h3>Achievements and Honors</h3>
     </u>
 
     <P>
@@ -61,6 +68,15 @@
     </p>
 
     <article>
+        <p id="buttons_para">
+            <button onclick="showMorePhotos()" id="btn1">Show more photos</button>
+            <button onclick="hidePhotos()" id="btn2">Hide photos</button>
+        </p>
+        <p id="more_photos"></p>
+    </article>
+
+
+    <article class="references_article">
         <u>
             <h3>References</h3>
         </u>
